@@ -59,7 +59,7 @@ keytool -genkeypair -alias pac4j -keypass pac4j-demo-password \
   -storepass pac4j-demo-password -keyalg RSA -keysize 2048 -validity 3650
 ```
 
-6. Set up gerrit site using latest released gerrit.war and select OAUTH
+6. Set up gerrit site using latest released gerrit.war and select HTTP
 authentication scheme using:
 
 ```bash
@@ -90,5 +90,5 @@ https://gerrit-review.googlesource.com/c/plugins/saml/+/212177.
 13. You are redirected to gerrit and the first user/admin John Doe is created
 in gerrit with the right user name and email address.
 
-14. Congrats, you have Gerrit / Keycloak OAuth2 integration up and running.
+14. Congrats, you have Gerrit / Keycloak SAML integration up and running.
 
